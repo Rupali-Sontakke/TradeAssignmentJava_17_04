@@ -1,0 +1,5 @@
+com\trade\transmission\entity\TradeVersionId.class
+com\trade\transmission\entity\TradeTable.class
+com\trade\transmission\dao\TradeDao.class
+com\trade\transmission\exception\LowerVersionException.class
+com\trade\transmission\connection\TradeDemoConnection.class
