@@ -10,7 +10,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.trade.transmission.connection.TradeDemoConnection;
-import com.trade.transmission.dao.TradeDao;
 import com.trade.transmission.exception.LowerVersionException;
 import com.trade.transmission.service.TradeService;
 
@@ -18,7 +17,7 @@ public class TradeImplementationUnitTest{
 	
 	public static SessionFactory factory;
 	
-	TradeService implementation = new TradeDao();
+	TradeService implementation = new TradeImplementation();
 	
 	@Before
 	public void setUp() {

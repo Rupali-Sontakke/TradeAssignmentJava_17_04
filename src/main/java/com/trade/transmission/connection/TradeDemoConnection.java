@@ -8,15 +8,15 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-import com.trade.transmission.dao.TradeDao;
 import com.trade.transmission.entity.TradeTable;
+import com.trade.transmission.implementation.TradeImplementation;
 import com.trade.transmission.service.TradeService;
 
 public class TradeDemoConnection {
 	
 	public static SessionFactory factory;
 	
-	static TradeService service =  new TradeDao();
+	static TradeService service =  new TradeImplementation();
 	
 	static {
 		factory = getConfig();

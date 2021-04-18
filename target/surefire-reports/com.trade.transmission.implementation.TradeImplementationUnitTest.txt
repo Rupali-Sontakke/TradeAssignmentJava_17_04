@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.trade.transmission.implementation.TradeImplementationUnitTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in com.trade.transmission.implementation.TradeImplementationUnitTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.trade.transmission.implementation.TradeImplementationUnitTest
